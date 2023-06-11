@@ -1,0 +1,102 @@
+body {
+    background-color: #1F2937;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    width: 100%;
+}
+
+.logo {
+    padding: 10px;
+    margin: 10px;
+}
+
+header > div {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 10px;
+    margin: 10px;
+    list-style-type: none;
+}
+
+.div1 {
+    background-color: #1F2937;
+}
+.div1-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    color: white;
+}
+.fl-dp-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fl-dp-col {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 10px;
+}
+
+.div2 {
+    background-color: white;
+}
+
+.div2-text {
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 200px;
+    max-height: 200px;
+    justify-content: center;
+}
+
+.card > img {
+    max-width: 50px;
+    border-radius: 30px;
+}
+
+.div3 {
+    font-size: 20px;
+    font-style: italic;
+    color: #1F2937;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.quote-text {
+    padding: 20px;
+    margin: 30px;
+}
+.quote-auth {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    width: 100%;
+    margin-right: 20px;
+    margin-top: 0;
+}
+
